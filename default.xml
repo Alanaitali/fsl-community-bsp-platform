@@ -6,6 +6,10 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/Alanaitali" name="github"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -20,5 +24,8 @@
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
+  <project remote="github" revision="krogoth" name="meta-amplitude" path="sources/meta-amplitude"/>
+  <project remote="swupdate" revision="krogoth" name="meta-swupdate" path="sources/meta-swupdate"/>
+  <project remote="qt5" revision="krogoth" name="meta-qt5" path="sources/meta-qt5"/>
 
 </manifest>
